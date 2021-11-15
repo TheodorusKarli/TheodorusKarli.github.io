@@ -12,7 +12,7 @@ function getListMovie() {
 
     var moviesHTML = "";
     data.results.forEach(function(movie) {
-    moviesHTML += `
+    moviesHTML =  moviesHTML + `
         <div class="col m3 s6">
             <div class="card">
                 <a href="./movie.html?id=${movie.id}">
